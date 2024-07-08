@@ -1,0 +1,1057 @@
+/**********************************************************/
+/******************1601px – above Desktop******************/
+/**********************************************************/
+@media only screen and (min-width: 1601px) {
+/************************global****************************/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+.contact-main input{
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+/***********************header nav*************************/
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2%;
+    background-color: tomato;
+    padding: 2%;
+    align-items: baseline;
+    align-content: center;
+}
+#title{
+    display: inline-block;
+    color: white;
+    background-color: tomato;
+    margin-left:10%;
+    margin-right:35%;
+}
+#title a{
+    display: inline-block;
+    font-family: serif;
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 3%;
+    font-size: 8rem;
+}
+nav ul{
+    background-color: tomato;
+}
+nav li{
+    display: inline-block;
+    background-color: tomato;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 3rem;
+}
+#title a:hover,ul a:hover {
+    color: #0C2D57;
+  }
+
+/***************************index-main***************************/
+.index-main{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:20px;
+    padding:2%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/building.jpg");
+}
+.index-grid-items{
+    text-align:center;
+}
+#index-h1{
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+
+#index_text1{
+    grid-column-start:2; 
+    grid-column-end:6;
+    text-align:justify;
+    font-size: xx-large;
+    font-style: oblique;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+#index-words1{
+    font-weight: bold;
+    font-size: xxx-large;
+}
+#index-words2{
+    font-size: x-large;
+    color: red;
+}
+#index_text2{
+    grid-column-start:1; 
+    grid-column-end:3;
+    padding: 3%;
+    font-size:40px;
+    margin-bottom: 10%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/blueprints.jpg");
+}
+#index_img1{
+    grid-column-start:3;
+    grid-column-end:5;
+    padding: 3%;
+    margin-bottom: 10%;
+}
+#index_text3{
+    grid-column-start:5;
+    grid-column-end:7;
+    padding: 3%;
+    font-size:40px;
+    margin-bottom: 10%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/house.jpg");
+}
+
+/***************************about-main***************************/
+.about-main{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap:20px;
+    padding:2%;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.about-grid-items{
+    text-align:justify;
+}
+#about-h1 {
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.about-grid-items img {
+    border-radius: 15%;
+    padding: 5%;
+}
+.about-main>p{
+    border-radius: 15%;
+    padding: 5%;
+    font-size: large;
+    font-weight: 400;
+}
+/***************************projects-main***************************/
+.projects-main{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap:20px;
+    padding:2%;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.projects-grid-items{
+    text-align:justify;
+}
+#projects-h1 {
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.projects-grid-items img {
+    border-radius: 15%;
+    padding: 5%;
+}
+/***************************contact-main***************************/
+.contact-main{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto;
+    gap:20px;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.contact-grid-items{
+    text-align:justify;
+}
+#contact-h1 {
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.contact-grid-items img {
+    border-radius: 15%;
+    padding:20px;
+    margin-left: 10%;
+}
+.contact-grid-items form {
+    padding:20px;
+    margin-left: 50%;
+}  
+.contact-main input{
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+/***************************footer***************************/
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2%;
+    background-color: tomato;
+    padding: 2%;
+    align-items: baseline;
+    align-content: center;
+}
+footer *{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.footer-flex-items{
+    color: white;
+    background-color: tomato;
+    padding:5px;
+    font-weight: bold;
+}
+footer p{
+    text-align: left;
+}
+#caption{
+    text-align: left;
+}
+footer a {
+    color: lightblue;
+    background-color: tomato;
+}
+footer a:hover{
+    color: blueviolet;
+}
+input {
+    margin: 5px;
+}
+footer span{
+    color:#0C2D57;
+    background-color: tomato;
+}
+}
+/**********************************************************/
+/*******************1201px – 1600px laptops****************/
+/**********************************************************/
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+/************************global****************************/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+.contact-main input{
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+/***********************header nav*************************/
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2%;
+    background-color: tomato;
+    padding: 2%;
+    align-items: baseline;
+    align-content: center;
+}
+#title{
+    display: inline-block;
+    color: white;
+    background-color: tomato;
+    margin-left:10%;
+    margin-right:35%;
+}
+#title a{
+    display: inline-block;
+    font-family: serif;
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 3%;
+    font-size: 8rem;
+}
+nav ul{
+    background-color: tomato;
+}
+nav li{
+    display: inline-block;
+    background-color: tomato;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 3rem;
+}
+#title a:hover,ul a:hover {
+    color: #0C2D57;
+  }
+
+/***************************index-main***************************/
+.index-main{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:20px;
+    padding:2%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/building.jpg");
+}
+.index-grid-items{
+    text-align:center;
+}
+#index-h1{
+    color: tomato;
+    padding: 5%;
+    font-size: xx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+
+#index_text1{
+    grid-column-start:2; 
+    grid-column-end:6;
+    text-align:justify;
+    font-size: x-large;
+    font-style: oblique;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+#index-words1{
+    font-weight: bold;
+    font-size: xxx-large;
+}
+#index-words2{
+    font-size: x-large;
+    color: red;
+}
+#index_text2{
+    grid-column-start:2; 
+    grid-column-end:6;
+    padding: 3%;
+    font-size:40px;
+    margin-bottom: 10%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/blueprints.jpg");
+}
+#index_img1{
+    grid-column-start:2;
+    grid-column-end:6;
+    padding: 3%;
+    margin-bottom: 10%;
+}
+#index_text3{
+    grid-column-start:2;
+    grid-column-end:6;
+    padding: 3%;
+    font-size:40px;
+    margin-bottom: 10%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/house.jpg");
+}
+
+.contact-main input{
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+/***************************about-main***************************/
+.about-main{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap:20px;
+    padding:2%;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.about-grid-items{
+    text-align:justify;
+}
+#about-h1 {
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.about-grid-items img {
+    border-radius: 15%;
+    padding: 3%;
+}
+.about-main>p{
+    border-radius: 15%;
+    padding: 5%;
+    font-size: large;
+    font-weight: 400;
+}
+/***************************projects-main***************************/
+.projects-main{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap:10px;
+    padding:2%;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.projects-grid-items{
+    text-align:justify;
+}
+#projects-h1 {
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.projects-grid-items img {
+    border-radius: 15%;
+    padding: 5%;
+}
+/***************************contact-main***************************/
+.contact-main{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto;
+    gap:20px;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.contact-grid-items{
+    text-align:justify;
+}
+#contact-h1 {
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.contact-grid-items img {
+    border-radius: 15%;
+    padding:10px;
+    margin-left: 10%;
+    width: 80%;
+}
+.contact-grid-items form {
+    padding:20px;
+    margin-left: 15%;
+    margin-right: 20%;
+}  
+
+/***************************footer***************************/
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2%;
+    background-color: tomato;
+    padding: 2%;
+    align-items: baseline;
+    align-content: center;
+}
+footer *{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.footer-flex-items{
+    color: white;
+    background-color: tomato;
+    padding:5px;
+    font-weight: bold;
+}
+footer p{
+    text-align: left;
+}
+#caption{
+    text-align: left;
+}
+footer a {
+    color: lightblue;
+    background-color: tomato;
+}
+footer a:hover{
+    color: blueviolet;
+}
+input {
+    margin: 5px;
+}
+footer span{
+    color:#0C2D57;
+    background-color: tomato;
+}
+}
+/**********************************************************/
+/********************481px – 1200px iPads******************/
+/**********************************************************/
+@media only screen and (min-width: 481px) and (max-width: 1200px) {
+/************************global****************************/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+.contact-main input{
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+/***********************header nav*************************/
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1%;
+    background-color: tomato;
+    padding: 2%;
+    align-items: baseline;
+    align-content: center;
+}
+#title{
+    display: inline-block;
+    color: white;
+    background-color: tomato;
+    margin-left:10%;
+    margin-right:35%;
+}
+#title a{
+    display: inline-block;
+    font-family: serif;
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 3%;
+    font-size: 8rem;
+}
+nav ul{
+    background-color: tomato;
+}
+nav li{
+    display: inline-block;
+    background-color: tomato;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 3rem;
+}
+#title a:hover,ul a:hover {
+    color: #0C2D57;
+  }
+
+/***************************index-main***************************/
+.index-main{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+    padding:2%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/building.jpg");
+}
+.index-grid-items{
+    text-align:center;
+}
+#index-h1{
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+
+#index_text1{
+    grid-column-start:1; 
+    grid-column-end:2;
+    text-align:justify;
+    font-size: x-large;
+    font-style: oblique;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+#index-words1{
+    font-weight: bold;
+    font-size: xxx-large;
+}
+#index-words2{
+    font-size: x-large;
+    color: red;
+}
+#index_text2{
+    grid-column-start:1; 
+    grid-column-end:2;
+    padding: 3%;
+    font-size:40px;
+    margin-bottom: 10%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/blueprints.jpg");
+}
+#index_img1{
+    grid-column-start:1;
+    grid-column-end:2;
+    padding: 3%;
+    margin-bottom: 10%;
+}
+#index_text3{
+    grid-column-start:1;
+    grid-column-end:2;
+    padding: 3%;
+    font-size:40px;
+    margin-bottom: 10%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/house.jpg");
+}
+
+/***************************about-main***************************/
+.about-main{
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    gap:20px;
+    padding:2%;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.about-grid-items{
+    text-align:justify;
+}
+#about-h1 {
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.about-grid-items img {
+    border-radius: 15%;
+    padding: 10px;
+}
+.about-main>p{
+    border-radius: 15%;
+    padding: 10px;
+    font-size: large;
+    font-weight: 400;
+}
+/***************************projects-main***************************/
+.projects-main{
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap:10px;
+    padding:2%;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.projects-grid-items{
+    text-align:justify;
+}
+#projects-h1 {
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.projects-grid-items img {
+    border-radius: 15%;
+    padding: 10px;
+}
+/***************************projects-main***************************/
+.projects-main{
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap:10px;
+    padding:2%;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.projects-grid-items{
+    text-align:justify;
+}
+#projects-h1 {
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.projects-grid-items img {
+    border-radius: 15%;
+    padding: 10px;
+}
+/***************************contact-main***************************/
+.contact-main{
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto;
+    gap:10px;
+    padding:2%;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.contact-grid-items{
+    text-align:justify;
+}
+#contact-h1 {
+    color: tomato;
+    padding: 2%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.contact-grid-items img {
+    border-radius: 15%;
+    padding:10px;
+    margin-left:10%;
+    width: 80%;
+}
+.contact-grid-items form {
+    padding:10px;
+    margin-left:25%;
+}  
+.contact-main input{
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+/***************************footer***************************/
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2%;
+    background-color: tomato;
+    padding: 2%;
+    align-items: baseline;
+    align-content: center;
+}
+footer *{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.footer-flex-items{
+    color: white;
+    background-color: tomato;
+    padding:5px;
+    font-weight: bold;
+}
+footer p{
+    text-align: left;
+}
+#caption{
+    text-align: left;
+}
+footer a {
+    color: lightblue;
+    background-color: tomato;
+}
+footer a:hover{
+    color: blueviolet;
+}
+input {
+    margin: 5px;
+}
+
+footer span{
+    color:#0C2D57;
+    background-color: tomato;
+}
+}
+/**********************************************************/
+/********************below – 480px mobile******************/
+/**********************************************************/
+@media only screen and (max-width: 480px) {
+/************************global****************************/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+.contact-main input{
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+/***********************header nav*************************/
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1%;
+    background-color: tomato;
+    padding: 2%;
+    align-items: baseline;
+    align-content: center;
+}
+#title{
+    display: inline-block;
+    color: white;
+    background-color: tomato;
+    margin-left:10%;
+    margin-right:35%;
+}
+#title a{
+    display: inline-block;
+    font-family: serif;
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 3%;
+    font-size: 8rem;
+}
+nav ul{
+    background-color: tomato;
+}
+nav li{
+    display: inline-block;
+    background-color: tomato;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 3rem;
+}
+#title a:hover,ul a:hover {
+    color: #0C2D57;
+  }
+
+/***************************index-main***************************/
+.index-main{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+    padding:2%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/building.jpg");
+}
+.index-grid-items{
+    text-align:center;
+}
+#index-h1{
+    color: tomato;
+    padding: 5%;
+    font-size: xx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+
+#index_text1{
+    grid-column-start:1; 
+    grid-column-end:2;
+    text-align:justify;
+    font-size: x-large;
+    font-style: oblique;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+#index-words1{
+    font-weight: bold;
+    font-size: xxx-large;
+}
+#index-words2{
+    font-size: x-large;
+    color: red;
+}
+#index_text2{
+    grid-column-start:1; 
+    grid-column-end:2;
+    padding: 3%;
+    font-size:40px;
+    margin-bottom: 10%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/blueprints.jpg");
+}
+#index_img1{
+    grid-column-start:1;
+    grid-column-end:2;
+    padding: 3%;
+    margin-bottom: 10%;
+}
+#index_text3{
+    grid-column-start:1;
+    grid-column-end:2;
+    padding: 3%;
+    font-size:40px;
+    margin-bottom: 10%;
+    background-blend-mode: hard-light;
+    background-image: url("./images/house.jpg");
+}
+
+/***************************about-main***************************/
+.about-main{
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    gap:20px;
+    padding:2%;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.about-grid-items{
+    text-align:justify;
+}
+#about-h1 {
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.about-grid-items img {
+    border-radius: 15%;
+    padding: 10px;
+}
+.about-main>p{
+    border-radius: 15%;
+    padding: 10px;
+    font-size: large;
+    font-weight: 400;
+}
+/***************************projects-main***************************/
+.projects-main{
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap:10px;
+    padding:2%;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.projects-grid-items{
+    text-align:justify;
+}
+#projects-h1 {
+    color: tomato;
+    padding: 5%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.projects-grid-items img {
+    border-radius: 15%;
+    padding: 10px;
+}
+/***************************contact-main***************************/
+.contact-main{
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto;
+    gap:2%;
+    align-items: center;
+    align-content: center;
+    background-image: url("./images/building.jpg");
+    background-blend-mode: hard-light;
+    margin-bottom: 5%;
+}
+.contact-grid-items{
+    text-align:justify;
+}
+#contact-h1 {
+    color: tomato;
+    padding: 2%;
+    font-size: xxx-large;
+    font-weight:bold;
+    background-image: url("./images/skyscraper.jpg");
+}
+.contact-grid-items img {
+    border-radius: 15%;
+    padding:10px;
+    margin-left: 10%;
+    width: 80%;
+}
+.contact-grid-items form {
+    padding:10px;
+    margin-left: 10%;
+}  
+.contact-main input{
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+/***************************footer***************************/
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2%;
+    background-color: tomato;
+    padding: 2%;
+    align-items: baseline;
+    align-content: center;
+}
+footer *{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.footer-flex-items{
+    color: white;
+    background-color: tomato;
+    padding:5px;
+    font-weight: bold;
+}
+footer p{
+    text-align: left;
+}
+#caption{
+    text-align: left;
+}
+footer a {
+    color: lightblue;
+    background-color: tomato;
+}
+footer a:hover{
+    color: blueviolet;
+}
+input {
+    margin: 5px;
+}
+#submit {
+    margin-left: 23%;
+}
+footer span{
+    color:#0C2D57;
+    background-color: tomato;
+}
+}

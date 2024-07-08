@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="architect office">
+    <meta name="author" content="Nikitas Souvatzis">
+    <meta http-equiv="refresh" content="30" > 
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="styles.css">
+    <title>Architectural Creations</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="title"><a href="index.html">AC</a></div>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li></div>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="index-h1">Welcome to the "Architectural Creations" website!</h1>
+    <main class="index-main">
+        <p id="index_text1" class="index-grid-items"> <span id="index-words1">O</span>ur main concern is the creation of a space that will house your dreams. 
+            Contact us for your home, your holiday home, your office, your business premises and we will find the ideal solution for you. We have to offer you ideas 
+            to create a unique space that you will be <span id="index-words2">inspired to live in.</span>
+        </p>
+        <p id="index_text2" class="index-grid-items">Build your dreams</p>
+        <div id="index_img1" class="index-grid-items" ><img src="images/workplace.jpg" alt="Architectural Creation" width=100%"></div>
+        <p id="index_text3" class="index-grid-items">Build your future</p>
+    </main>
+    <footer>
+        <form action="index.php" method="post" autocomplete="on">
+            <div class="footer-flex-items" id="caption">
+                <caption>Send a message to sign up newsletter</caption>
+            </div>
+            <div class="footer-flex-items">
+                <input type="text" placeholder="First name" id="first-name" name="first-name" required>
+                <input type="text" placeholder="Surname" id="surname" name="surname" required><br />
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" placeholder="Email" id="email" name="email" required>
+                <input type="submit" id="submit" name="submit" value="Submit">
+                <input type="reset" id="reset" name="reset" value="Clear" >
+            </div>
+        </form>
+        <p class="footer-flex-items">Architectural Creations<br /><span>© 2024 Nikitas Souvatzis - All Rights Reserved</span></p>
+        <p class="footer-flex-items">Telephone: <span>123 1234567</span><br />email: <span>mypage123@gmail.com</span> </p>
+        <p class="footer-flex-items">Address: <span>Syntagma Square 999</span><br />Zip: <span>99 999</span></p>
+        <p class="footer-flex-items">Social:<br /><a href="https://www.facebook.com/" target="_blank">facebook</a></p>
+    </footer>
+</body>
+</html>
